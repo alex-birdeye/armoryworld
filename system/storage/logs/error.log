@@ -1,0 +1,116 @@
+2017-01-22 17:10:52 - PHP Warning:  ftp_mkdir(): admin: Permission denied in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:10:52 - PHP Warning:  ftp_mkdir(): catalog: Permission denied in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:10:52 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:10:52 - PHP Warning:  ftp_mkdir(): admin/controller: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:10:52 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:10:52 - PHP Warning:  ftp_mkdir(): admin/language: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:10:52 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:10:52 - PHP Warning:  ftp_mkdir(): admin/view: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:10:52 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:10:52 - PHP Warning:  ftp_mkdir(): catalog/controller: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:10:52 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:10:52 - PHP Warning:  ftp_mkdir(): catalog/view: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:10:52 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:10:52 - PHP Warning:  ftp_mkdir(): admin/controller/extension: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:10:52 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:10:52 - PHP Warning:  ftp_mkdir(): admin/language/en-gb: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:10:52 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:10:52 - PHP Warning:  ftp_mkdir(): admin/language/russian: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:10:52 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:10:52 - PHP Warning:  ftp_mkdir(): admin/language/zh-TW: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:10:52 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:10:52 - PHP Warning:  ftp_mkdir(): admin/view/template: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:10:52 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:10:52 - PHP Warning:  ftp_mkdir(): catalog/controller/product: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:10:52 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:10:52 - PHP Warning:  ftp_mkdir(): catalog/view/theme: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:10:52 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:10:52 - PHP Warning:  ftp_mkdir(): admin/controller/extension/module: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:10:52 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:10:52 - PHP Warning:  ftp_mkdir(): admin/language/en-gb/extension: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:10:52 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:10:52 - PHP Warning:  ftp_mkdir(): admin/language/russian/extension: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:10:52 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:10:52 - PHP Warning:  ftp_mkdir(): admin/language/zh-TW/extension: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:10:52 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:10:52 - PHP Warning:  ftp_mkdir(): admin/view/template/extension: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:10:52 - PHP Warning:  ftp_put(): catalog/controller/product/live_search.php: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 344
+2017-01-22 17:10:52 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:10:52 - PHP Warning:  ftp_mkdir(): catalog/view/theme/default: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:10:52 - PHP Warning:  ftp_put(): admin/controller/extension/module/live_search.php: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 344
+2017-01-22 17:10:52 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:10:52 - PHP Warning:  ftp_mkdir(): admin/language/en-gb/extension/module: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:10:52 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:10:52 - PHP Warning:  ftp_mkdir(): admin/language/russian/extension/module: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:10:52 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:10:52 - PHP Warning:  ftp_mkdir(): admin/language/zh-TW/extension/module: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:10:52 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:10:52 - PHP Warning:  ftp_mkdir(): admin/view/template/extension/module: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:10:52 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:10:52 - PHP Warning:  ftp_mkdir(): catalog/view/theme/default/image: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:10:52 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:10:52 - PHP Warning:  ftp_mkdir(): catalog/view/theme/default/stylesheet: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:10:52 - PHP Warning:  ftp_put(): admin/language/en-gb/extension/module/live_search.php: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 344
+2017-01-22 17:10:52 - PHP Warning:  ftp_put(): admin/language/russian/extension/module/live_search.php: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 344
+2017-01-22 17:10:52 - PHP Warning:  ftp_put(): admin/language/zh-TW/extension/module/live_search.php: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 344
+2017-01-22 17:10:52 - PHP Warning:  ftp_put(): admin/view/template/extension/module/live_search.tpl: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 344
+2017-01-22 17:10:52 - PHP Warning:  ftp_put(): catalog/view/theme/default/image/loading.gif: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 344
+2017-01-22 17:10:52 - PHP Warning:  ftp_put(): catalog/view/theme/default/stylesheet/live_search.css: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 344
+2017-01-22 17:11:39 - PHP Warning:  ftp_mkdir(): admin: Permission denied in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:11:39 - PHP Warning:  ftp_mkdir(): catalog: Permission denied in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:11:39 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:11:39 - PHP Warning:  ftp_mkdir(): admin/controller: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:11:39 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:11:39 - PHP Warning:  ftp_mkdir(): admin/language: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:11:39 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:11:39 - PHP Warning:  ftp_mkdir(): admin/view: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:11:39 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:11:39 - PHP Warning:  ftp_mkdir(): catalog/controller: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:11:39 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:11:39 - PHP Warning:  ftp_mkdir(): catalog/view: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:11:39 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:11:39 - PHP Warning:  ftp_mkdir(): admin/controller/extension: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:11:39 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:11:39 - PHP Warning:  ftp_mkdir(): admin/language/en-gb: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:11:39 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:11:39 - PHP Warning:  ftp_mkdir(): admin/language/russian: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:11:39 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:11:39 - PHP Warning:  ftp_mkdir(): admin/language/zh-TW: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:11:39 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:11:39 - PHP Warning:  ftp_mkdir(): admin/view/template: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:11:39 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:11:39 - PHP Warning:  ftp_mkdir(): catalog/controller/product: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:11:39 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:11:39 - PHP Warning:  ftp_mkdir(): catalog/view/theme: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:11:39 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:11:39 - PHP Warning:  ftp_mkdir(): admin/controller/extension/module: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:11:39 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:11:39 - PHP Warning:  ftp_mkdir(): admin/language/en-gb/extension: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:11:39 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:11:39 - PHP Warning:  ftp_mkdir(): admin/language/russian/extension: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:11:39 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:11:39 - PHP Warning:  ftp_mkdir(): admin/language/zh-TW/extension: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:11:39 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:11:39 - PHP Warning:  ftp_mkdir(): admin/view/template/extension: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:11:39 - PHP Warning:  ftp_put(): catalog/controller/product/live_search.php: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 344
+2017-01-22 17:11:39 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:11:39 - PHP Warning:  ftp_mkdir(): catalog/view/theme/default: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:11:39 - PHP Warning:  ftp_put(): admin/controller/extension/module/live_search.php: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 344
+2017-01-22 17:11:39 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:11:39 - PHP Warning:  ftp_mkdir(): admin/language/en-gb/extension/module: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:11:39 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:11:39 - PHP Warning:  ftp_mkdir(): admin/language/russian/extension/module: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:11:39 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:11:39 - PHP Warning:  ftp_mkdir(): admin/language/zh-TW/extension/module: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:11:39 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:11:39 - PHP Warning:  ftp_mkdir(): admin/view/template/extension/module: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:11:39 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:11:39 - PHP Warning:  ftp_mkdir(): catalog/view/theme/default/image: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:11:39 - PHP Warning:  Invalid argument supplied for foreach() in /var/www/html/opencart/admin/controller/extension/installer.php on line 332
+2017-01-22 17:11:39 - PHP Warning:  ftp_mkdir(): catalog/view/theme/default/stylesheet: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 337
+2017-01-22 17:11:39 - PHP Warning:  ftp_put(): admin/language/en-gb/extension/module/live_search.php: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 344
+2017-01-22 17:11:39 - PHP Warning:  ftp_put(): admin/language/russian/extension/module/live_search.php: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 344
+2017-01-22 17:11:39 - PHP Warning:  ftp_put(): admin/language/zh-TW/extension/module/live_search.php: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 344
+2017-01-22 17:11:39 - PHP Warning:  ftp_put(): admin/view/template/extension/module/live_search.tpl: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 344
+2017-01-22 17:11:39 - PHP Warning:  ftp_put(): catalog/view/theme/default/image/loading.gif: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 344
+2017-01-22 17:11:39 - PHP Warning:  ftp_put(): catalog/view/theme/default/stylesheet/live_search.css: No such file or directory in /var/www/html/opencart/admin/controller/extension/installer.php on line 344

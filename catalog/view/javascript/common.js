@@ -488,3 +488,7 @@ $(document).delegate('.agree', 'click', function(e) {
 		});
 	}
 })(window.jQuery);
+
+// function showSearchInput(){
+// 	$('input[name="search"]').removeClass("hidden");
+// }
