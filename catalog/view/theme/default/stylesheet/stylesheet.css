@@ -497,7 +497,7 @@ footer h5 {
 }
 /* list group */
 .list-group a {
-	border: 1px solid #DDDDDD;
+	//border: 1px solid #DDDDDD;
 	color: #888888;
 	padding: 8px 12px;
 }
@@ -746,4 +746,11 @@ h2.price {
 .btn-info:hover, .btn-info:active, .btn-info.active, .btn-info.disabled, .btn-info[disabled] {
     background-image: none;
     background-color: #df5c39;
+}
+
+.menu-category-name {
+	height: 100% !important; 
+	position: absolute; 
+	right: 0; 
+	text-align: center
 }

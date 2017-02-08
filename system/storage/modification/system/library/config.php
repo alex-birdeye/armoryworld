@@ -15,7 +15,7 @@ class Config {
 	}
 
 	public function load($filename) {
-		$file = DIR_CONFIG . $filename . '.php';
+		$file = '/home/cabox/workspace/system/config/' . $filename . '.php';
 
 		if (file_exists($file)) {
 			$_ = array();

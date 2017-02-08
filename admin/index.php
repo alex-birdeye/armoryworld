@@ -14,6 +14,6 @@ if (!defined('DIR_APPLICATION')) {
 }
 
 // Startup
-require_once(DIR_SYSTEM . 'startup.php');
+require_once('/home/cabox/workspace/system/' . 'startup.php');
 
 start('admin');

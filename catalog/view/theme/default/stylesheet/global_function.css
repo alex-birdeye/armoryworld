@@ -1,0 +1,448 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td 
+{ margin:0; padding:0; border:0; outline:0;
+ font-weight:inherit; font-style:inherit; font-size:100%; font-family:inherit; 
+ vertical-align:baseline; }
+div {display: block; position: relative;}
+ul, li,  a {position: relative;}
+a {text-decoration: none !important;}
+input[type="text"]{border:none}
+input,button {
+	outline: none;
+}/*@font-face {
+    font-family: 'OpenSans-Regular';
+    src: local('OpenSans-Regular'), url('../fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}@font-face {
+    font-family: 'OpenSans-Light';
+    src: local('OpenSans-Regular'), url('../fonts/Open_Sans/OpenSans-Light.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}@font-face {
+    font-family: 'OpenSans-Semibold';
+    src: local('OpenSans-Regular'), url('../fonts/Open_Sans/OpenSans-Semibold.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}*/
+
+
+@font-face {
+font-family: 'Avenir Next LT Pro Condensed';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir Next LT Pro Condensed'), url('../fonts/AvenirNextLTPro-Cn.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Avenir Next LT Pro Demi';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir Next LT Pro Demi'), url('../fonts/AvenirNextLTPro-Demi.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Avenir Next LT Pro Demi Condensed';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir Next LT Pro Demi Condensed'), url('../fonts/AvenirNextLTPro-DemiCn.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Avenir Next LT Pro Heavy Condensed';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir Next LT Pro Heavy Condensed'), url('../fonts/AvenirNextLTPro-HeavyCn.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Avenir Next LT Pro Medium Condensed';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir Next LT Pro Medium Condensed'), url('../fonts/AvenirNextLTPro-MediumCn.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Avenir Next LT Pro Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir Next LT Pro Regular'), url('../fonts/AvenirNextLTPro-Regular.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Avenir Next LT Pro Ultra Light Condensed';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir Next LT Pro Ultra Light Condensed'), url('../fonts/AvenirNextLTPro-UltLtCn.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Avenir Next LT Pro Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir Next LT Pro Bold'), url('../fonts/AvenirNextLTPro-Bold.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Avenir Next LT Pro Bold Condensed';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir Next LT Pro Bold Condensed'), url('../fonts/AvenirNextLTPro-BoldCn.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Avenir Next LT Pro Bold Condensed Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir Next LT Pro Bold Condensed Italic'), url('../fonts/AvenirNextLTPro-BoldCnIt.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Avenir Next LT Pro Condensed Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir Next LT Pro Condensed Italic'), url('../fonts/AvenirNextLTPro-CnIt.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Avenir Next LT Pro Demi Condensed Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir Next LT Pro Demi Condensed Italic'), url('../fonts/AvenirNextLTPro-DemiCnIt.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Avenir Next LT Pro Demi Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir Next LT Pro Demi Italic'), url('../fonts/AvenirNextLTPro-DemiIt.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Avenir Next LT Pro Heavy Condensed Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir Next LT Pro Heavy Condensed Italic'), url('../fonts/AvenirNextLTPro-HeavyCnIt.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Avenir Next LT Pro Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir Next LT Pro Italic'), url('../fonts/AvenirNextLTPro-It.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Avenir Next LT Pro Medium Condensed Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir Next LT Pro Medium Condensed Italic'), url('../fonts/AvenirNextLTPro-MediumCnIt.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Avenir Next LT Pro Ultra Light Condensed Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir Next LT Pro Ultra Light Condensed Italic'), url('../fonts/AvenirNextLTPro-UltLtCnIt.woff') format('woff');
+}
+body{
+	background: #626262!important;;
+}
+.wrap_main_box{
+	max-width: 1900px;
+	margin:0 auto;
+}
+a{
+	color:#000!important;
+		-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+a:hover{
+		-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+i{
+		-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.text_cen{
+	text-align: center;
+}
+.ccc{
+	display: none;
+}
+.p0{
+	padding-left: 0!important;
+	padding-right: 0!important;
+}
+#main_head{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: #fff;
+	z-index: 99999;
+		-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+	border-bottom: 2px solid #e5eaee;
+}
+#main_head.largee{
+	height: 85px;
+}
+#main_head.smalll{
+	height: 53px;
+}
+.left_nav.t53{
+	top:53px;
+		-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.left_nav.t85{
+	top: 85px;
+		-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+#main_head.smalll .menu_top{
+	margin-top: 15px;
+		-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+#main_head.smalll .wrapper_icon_soc{
+	padding: 7px 0;
+	margin: 7px auto;
+		-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+#main_head.smalll .wrapper_icon_soc > a > i{
+	font-size: 18px;
+}
+#main_head.smalll #r-t-nav{
+	padding-top: 7px;
+	padding-bottom: 10px;
+		-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+#main_head.smalll .logo{
+	margin-top: 6px;
+		-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+#main_head.smalll .logo img{
+	width: 184px;
+		-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.menu_top,.wrapper_icon_soc,#r-t-nav,.logo img{
+		-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+#slider{
+	width: 100%;
+	min-height: 590px;
+	background: url(../img/slider.jpg) no-repeat;
+	background-size: cover;
+}
+#description{
+	background: #fff;
+}
+.del_map-h2{
+	margin-top: 40px;
+	font-family: 'Avenir Next LT Pro Medium Condensed';
+	font-size: 36px!important;
+	color: #292a2d!important;
+	line-height:20px;
+}
+.del_map-p{
+	font-size: 26px!important;;
+	font-family: 'Avenir Next LT Pro Ultra Light Condensed';
+}
+.del_map-p > strong{
+	font-family: 'Avenir Next LT Pro Medium Condensed';
+}
+.desc_s-h2{
+	margin-top: 40px;
+	font-family: 'Avenir Next LT Pro Medium Condensed';
+	font-size: 36px!important;
+	color: #0b0c10!important;
+	line-height:20px;
+}
+.desc_s-h3{
+	font-family: 'Avenir Next LT Pro Ultra Light Condensed';
+	font-size: 24px!important;
+	color: #0b0c10!important;
+	line-height:20px;
+}
+.desc_s-p{
+	font-family: 'Avenir Next LT Pro Regular';
+	font-size: 16px!important;
+	color: #000000!important;
+}
+.products_s-h2{
+	font-family: 'Avenir Next LT Pro Regular';
+	font-size: 28px!important;
+	color: #272727!important;
+}
+.descs_prod{
+	color: #3f5462!important;
+}
+.descs_prod h2 {
+	font-family: 'Avenir Next LT Pro Regular';
+	font-size: 20px!important;
+}
+.price_prod{
+	margin: 5px 0 0 0;
+	font-family: 'Avenir Next LT Pro Regular';
+	font-size: 25px!important;
+}
+.more_prod{
+	font-family: 'Avenir Next LT Pro Medium Condensed';
+	font-size: 20px!important;
+	text-decoration: underline!important;;
+	color: #3f5462!important;
+}
+.more_prod:hover{
+	color:#c0c9cf!important;;
+}
+.size_prod > li{
+	font-family: 'Avenir Next LT Pro Regular';
+	font-size: 22px!important;
+	color: #000!important;
+}
+.min_desc_prod{
+	font-family: 'Avenir Next LT Pro Medium Condensed';
+	font-size: 14px!important;
+	color: #3f5462!important;
+}
+.bnt-more_prod,.btn-more_datailed{
+	font-family: 'Avenir Next LT Pro Medium Condensed';
+	color: #3f5462!important;
+}
+.about_s-h3{
+	font-family: 'Avenir Next LT Pro Regular';
+	color: #272727!important;
+}
+.about_s-h2{
+	font-family: 'Avenir Next LT Pro Medium Condensed';
+	color: #272727!important;
+	font-size: 36px!important;
+}
+.about_s-h2 span{
+	font-family: 'Avenir Next LT Pro Ultra Light Condensed';
+	font-size: 24px!important;
+}
+#about_box p {
+	font-family: 'Avenir Next LT Pro Regular';
+}.box-a-t-i{
+	font-family: 'Avenir Next LT Pro Ultra Light Condensed';
+	font-size: 24px!important;
+}
+.box-a-t-i strong{
+	font-family: 'Avenir Next LT Pro Medium Condensed';
+}
+.footer_nav{
+	font-family: 'Avenir Next LT Pro Regular';
+}
+.rights, .soc_url>a{
+	font-family: 'Avenir Next LT Pro Medium Condensed';
+}
+.soc_url > a{
+	font-family: 'Avenir Next LT Pro Medium Condensed';
+	letter-spacing: 2px;
+}
+#products{
+	background: #fff;
+}
+#about_box{
+	background: #e9eef2;
+}
+#pay{
+	padding: 25px 0;
+	background: #fff;
+}
+#main_footer{
+	padding-bottom: 20px;
+	width: 100%;
+	background: url(../img/footer.jpg) no-repeat;
+	background-size: cover;
+}
+#main_footer_b{
+	padding: 20px 0;
+	width: 100%;
+	background: #354851;
+}
+.dropdown-menu{
+	min-width: auto!important;
+}
+.fr{
+	float: right!important;
+}
+.add_wish_list i{
+	color: #56666D;
+	font-size: 20px;
+	line-height: 27px;
+}
+.add_wish_list:hover i{
+	color: #c41326;
+}
+.caret{
+	margin-top: -4px;
+	margin-left: 5px!important;
+}
+.dropdown-menu{
+	margin: 8px 0 0!important;
+	left: -18px!important;
+}
+.ovH{
+	overflow: hidden;
+		-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}

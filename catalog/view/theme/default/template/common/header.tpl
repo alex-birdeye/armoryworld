@@ -33,11 +33,15 @@
 <?php foreach ($scripts as $script) { ?>
 <script src="<?php echo $script; ?>" type="text/javascript"></script>
 <?php } ?>
+<script src="catalog/view/javascript/main.js" type="text/javascript"></script>
 <?php foreach ($analytics as $analytic) { ?>
 <?php echo $analytic; ?>
 <?php } ?>
+<link href="catalog/view/theme/default/stylesheet/global_function.css" rel="stylesheet">
+<link href="catalog/view/theme/default/stylesheet/style.css" rel="stylesheet">
 </head>
 <body class="<?php echo $class; ?>">
+
 <!--<nav id="top">-->
   <!--<div class="container">-->
     <!--<?php echo $currency; ?>-->
@@ -66,66 +70,124 @@
     <!--</div>-->
   <!--</div>-->
 <!--</nav>-->
-<header>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-2">
-        <div id="logo">
-          <?php if ($logo) { ?>
-          <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
-          <?php } else { ?>
-          <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
-          <?php } ?>
-        </div>
-      </div>
-      <div class="col-sm-1">
-        <a href="#">Terms & Conditions</a>
-        <a href="#">Feedback</a>
-        <a href="#">Contacts</a>
-      </div>
-      <div class="col-sm-1">
-        <a href=""><i class="fa fa-facebook"></i></a>
-        <a href=""><i class="fa fa-instagram"></i></a>
-        <a href=""><i class="fa fa-google-plus"></i></a>
-        <a href=""><i class="fa fa-twitter"></i></a>
-      </div>
-      <div class="col-sm-1"><?php echo $currency; ?></div>
-      <div class="col-sm-3"><?php echo $search; ?>
-      </div>
-      <div class="col-sm-1"><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></div>
-      <div class="col-sm-1"><?php echo $cart; ?></div>
-    </div>
-  </div>
-</header>
-<?php if ($categories) { ?>
-<!-- <div class="container">
-  <nav id="menu" class="navbar">
-    <div class="navbar-header"><span id="category" class="visible-xs"><?php echo $text_category; ?></span>
-      <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
-    </div>
-    <div class="collapse navbar-collapse navbar-ex1-collapse">
-      <ul class="nav navbar-nav">
-        <?php foreach ($categories as $category) { ?>
-        <?php if ($category['children']) { ?>
-        <li class="dropdown"><a href="<?php echo $category['href']; ?>" class="dropdown-toggle" data-toggle="dropdown"><?php echo $category['name']; ?></a>
-          <div class="dropdown-menu">
-            <div class="dropdown-inner">
-              <?php foreach (array_chunk($category['children'], ceil(count($category['children']) / $category['column'])) as $children) { ?>
-              <ul class="list-unstyled">
-                <?php foreach ($children as $child) { ?>
-                <li><a href="<?php echo $child['href']; ?>"><?php echo $child['name']; ?></a></li>
-                <?php } ?>
-              </ul>
-              <?php } ?>
+
+<header id="main_head" class="largee">
+  <div class="container-fluid">
+        <div class="row-fluid">
+            <div class="col-md-3">
+                <div class="logo"><a href="<?php echo $home; ?>"><img src="<?php echo str_replace('png', 'svg', $logo); ?>" alt="Armory-World"></a></div>
             </div>
-            <a href="<?php echo $category['href']; ?>" class="see-all"><?php echo $text_all; ?> <?php echo $category['name']; ?></a> </div>
-        </li>
-        <?php } else { ?>
-        <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
-        <?php } ?>
-        <?php } ?>
-      </ul>
+            <div class="col-md-4">
+                <nav class="menu_top">
+                    <ul class="">
+                        <li><a href="#">Terms &amp; Conditions</a></li>
+                        <li><a href="#">Feedback </a></li>
+                        <li><a href="#">Comtacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class="col-md-2">
+                <div class="wrapper_icon_soc">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                </div>
+            </div>
+             <div id="r-t-nav" class="col-md-3 clearfix">
+             
+                <div class="currency">
+                      <button type="button" data-toggle="dropdown" class="curzn dropdown-toggle">$<span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">€</a></li>
+                          <li><a href="#">₴</a></li>
+                       </ul>
+                 </div>
+                <div class="search_top_nav">
+                    <div class="search_box">
+                        <form id="search_main" style="display: none;">
+                            <input id="search" name="search" type="text" placeholder="What you search?">
+                            <button name="submit" id="tog_search"><img src="image/search.svg" alt=""></button>
+                        </form>
+                    </div>
+                    <button id="tog_sach"><img src="image/search.svg" alt=""></button>
+                   
+                </div>
+                <div class="icon_top_nav">
+
+                    <a href="#"><img src="image/icon_top_nav.svg" alt=""></a>
+
+                </div>
+                <div class="count-cir">
+                    <a href="#"><div class="cir"><span>3</span></div></a>
+                </div>
+                <div class="prise"><a href="#">1450.00$</a></div>
+            </div>
+        </div>
     </div>
-  </nav>
-</div> -->
-<?php } ?>
+
+ <!-- <div class="container"> -->
+  <!--  <div class="row"> -->
+  <!--    <div class="col-sm-2"> -->
+  <!--      <div id="logo"> -->
+  <!--        <?php if ($logo) { ?> -->
+  <!--        <a href="<?php echo $home; ?>"><img src="<?php echo str_replace('png', 'svg', $logo); ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a> -->
+  <!--        <?php } else { ?> -->
+  <!--        <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1> -->
+  <!--        <?php } ?> -->
+  <!--      </div> -->
+  <!--    </div> -->
+  <!--    <div class="col-sm-3"> -->
+  <!--      <a href="#">Terms & Conditions</a> -->
+  <!--      <a href="#">Feedback</a> -->
+  <!--      <a href="#">Contacts</a> -->
+  <!--    </div> -->
+  <!--    <div class="col-sm-1"> -->
+  <!--      <a href=""><i class="fa fa-facebook"></i></a> -->
+  <!--      <a href=""><i class="fa fa-instagram"></i></a> -->
+  <!--      <a href=""><i class="fa fa-google-plus"></i></a> -->
+  <!--      <a href=""><i class="fa fa-twitter"></i></a> -->
+  <!--    </div> -->
+  <!--    <div class="col-sm-2"><?php echo $currency; ?></div> -->
+  <!--    <div class="col-sm-1"><?php echo $search; ?> -->
+  <!--    </div> -->
+  <!--    <div class="col-sm-1"><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></div> -->
+  <!--    <div class="col-sm-1"><?php echo $cart; ?></div> -->
+  <!--  </div> -->
+ <!-- </div> -->
+ 
+</header>
+
+<!--<?php if ($categories) { ?>-->
+<!--<div class="container">-->
+<!--  <nav id="menu" class="navbar">-->
+<!--    <div class="navbar-header"><span id="category" class="visible-xs"><?php echo $text_category; ?></span>-->
+<!--      <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>-->
+<!--    </div>-->
+<!--    <div class="collapse navbar-collapse navbar-ex1-collapse">-->
+<!--      <ul class="nav navbar-nav">-->
+<!--        <?php foreach ($categories as $category) { ?>-->
+<!--        <?php if ($category['children']) { ?>-->
+<!--        <li class="dropdown"><a href="<?php echo $category['href']; ?>" class="dropdown-toggle" data-toggle="dropdown"><?php echo $category['name']; ?></a>-->
+<!--          <div class="dropdown-menu">-->
+<!--            <div class="dropdown-inner">-->
+<!--              <?php foreach (array_chunk($category['children'], ceil(count($category['children']) / $category['column'])) as $children) { ?>-->
+<!--              <ul class="list-unstyled">-->
+<!--                <?php foreach ($children as $child) { ?>-->
+<!--                <li><a href="<?php echo $child['href']; ?>"><?php echo $child['name']; ?></a></li>-->
+<!--                <?php } ?>-->
+<!--              </ul>-->
+<!--              <?php } ?>-->
+<!--            </div>-->
+<!--            <a href="<?php echo $category['href']; ?>" class="see-all"><?php echo $text_all; ?> <?php echo $category['name']; ?></a> </div>-->
+<!--        </li>-->
+<!--        <?php } else { ?>-->
+<!--        <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>-->
+<!--        <?php } ?>-->
+<!--        <?php } ?>-->
+<!--      </ul>-->
+<!--    </div>-->
+<!--  </nav>-->
+<!--</div>-->
+<!--<?php } ?>-->

@@ -3,7 +3,7 @@ class Log {
 	private $handle;
 
 	public function __construct($filename) {
-		$this->handle = fopen(DIR_LOGS . $filename, 'a');
+		$this->handle = fopen('/home/cabox/workspace/system/storage/logs/' . $filename, 'a');
 	}
 
 	public function write($message) {

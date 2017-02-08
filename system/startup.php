@@ -74,8 +74,8 @@ function modification($filename) {
 		$file = DIR_MODIFICATION . 'catalog/' . substr($filename, strlen(DIR_APPLICATION));
 	}
 
-	if (substr($filename, 0, strlen(DIR_SYSTEM)) == DIR_SYSTEM) {
-		$file = DIR_MODIFICATION . 'system/' . substr($filename, strlen(DIR_SYSTEM));
+	if (substr($filename, 0, strlen('/home/cabox/workspace/system/')) == '/home/cabox/workspace/system/') {
+		$file = DIR_MODIFICATION . 'system/' . substr($filename, strlen('/home/cabox/workspace/system/'));
 	}
 
 	if (is_file($file)) {
@@ -86,12 +86,12 @@ function modification($filename) {
 }
 
 // Autoloader
-if (is_file(DIR_SYSTEM . '../../vendor/autoload.php')) {
-	require_once(DIR_SYSTEM . '../../vendor/autoload.php');
+if (is_file('/home/cabox/workspace/system/' . '../../vendor/autoload.php')) {
+	require_once('/home/cabox/workspace/system/' . '../../vendor/autoload.php');
 }
 
 function library($class) {
-	$file = DIR_SYSTEM . 'library/' . str_replace('\\', '/', strtolower($class)) . '.php';
+	$file = '/home/cabox/workspace/system/' . 'library/' . str_replace('\\', '/', strtolower($class)) . '.php';
 
 	if (is_file($file)) {
 		include_once(modification($file));
@@ -106,20 +106,20 @@ spl_autoload_register('library');
 spl_autoload_extensions('.php');
 
 // Engine
-require_once(modification(DIR_SYSTEM . 'engine/action.php'));
-require_once(modification(DIR_SYSTEM . 'engine/controller.php'));
-require_once(modification(DIR_SYSTEM . 'engine/event.php'));
-require_once(modification(DIR_SYSTEM . 'engine/front.php'));
-require_once(modification(DIR_SYSTEM . 'engine/loader.php'));
-require_once(modification(DIR_SYSTEM . 'engine/model.php'));
-require_once(modification(DIR_SYSTEM . 'engine/registry.php'));
-require_once(modification(DIR_SYSTEM . 'engine/proxy.php'));
+require_once(modification('/home/cabox/workspace/system/' . 'engine/action.php'));
+require_once(modification('/home/cabox/workspace/system/' . 'engine/controller.php'));
+require_once(modification('/home/cabox/workspace/system/' . 'engine/event.php'));
+require_once(modification('/home/cabox/workspace/system/' . 'engine/front.php'));
+require_once(modification('/home/cabox/workspace/system/' . 'engine/loader.php'));
+require_once(modification('/home/cabox/workspace/system/' . 'engine/model.php'));
+require_once(modification('/home/cabox/workspace/system/' . 'engine/registry.php'));
+require_once(modification('/home/cabox/workspace/system/' . 'engine/proxy.php'));
 
 // Helper
-require_once(DIR_SYSTEM . 'helper/general.php');
-require_once(DIR_SYSTEM . 'helper/utf8.php');
-require_once(DIR_SYSTEM . 'helper/json.php');
+require_once('/home/cabox/workspace/system/' . 'helper/general.php');
+require_once('/home/cabox/workspace/system/' . 'helper/utf8.php');
+require_once('/home/cabox/workspace/system/' . 'helper/json.php');
 
 function start($application_config) {
-	require_once(DIR_SYSTEM . 'framework.php');	
+	require_once('/home/cabox/workspace/system/' . 'framework.php');	
 }

@@ -101,7 +101,7 @@ final class Loader {
 		// Sanitize the call
 		$route = preg_replace('/[^a-zA-Z0-9_\/]/', '', (string)$route);
 			
-		$file = DIR_SYSTEM . 'library/' . $route . '.php';
+		$file = '/home/cabox/workspace/system/' . 'library/' . $route . '.php';
 		$class = str_replace('/', '\\', $route);
 
 		if (is_file($file)) {
@@ -114,7 +114,7 @@ final class Loader {
 	}
 	
 	public function helper($route) {
-		$file = DIR_SYSTEM . 'helper/' . preg_replace('/[^a-zA-Z0-9_\/]/', '', (string)$route) . '.php';
+		$file = '/home/cabox/workspace/system/' . 'helper/' . preg_replace('/[^a-zA-Z0-9_\/]/', '', (string)$route) . '.php';
 
 		if (is_file($file)) {
 			include_once($file);
